@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: red;   text-align: left;  font: serif;  font-size: 40px;
+}
+
+h2{
+    color: red; text-align: left;  font-size: 25px;
+}
+
+p{
+    color: navy; font-size: 10px;
+}
+
+
+h2{
+    color: red; text-align: left;   font-size: 25px;
+}
+
+p{
+    color: navy; font-size: 22px;
+}
+
+p{
+    color: navy; font-size: 22px;
+}
