@@ -48,16 +48,17 @@ h3{
     background-color: #f1f1f1;
   }
   
-  /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
     float: left;
+    text-align: center;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 30px 30px;
     transition: 0.2s;
     font-size: 20px;
+    width: 230px;
   }
   
 
@@ -77,3 +78,6 @@ h3{
     border: 1px solid #ccc;
     border-top: none;
   }
+
+
+ 
