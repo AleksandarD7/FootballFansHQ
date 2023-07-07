@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
+
 <body>
-    
-    
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  nbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>FootballFansHQ </strong> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="tablinks nav-link active" onclick="openCity(event, 'home')" id="default" aria-current="page"
+              href="#"><strong> Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'players')"><strong> Players</strong> </a>
+          </li>
+          <li class="nav-item">
+            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'clubs')"><strong>Clubs</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'about')"><strong>About</strong></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
-<div class="tab">
-  <button> <strong> FOOTBALLFANSHQ  </strong> </button>
-  <button class="tablinks" onclick="openCity(event, 'home')"><strong>Home</strong></button> 
-  <button class="tablinks" onclick="openCity(event, 'players')"><strong>Players</strong></button>
-  <button class="tablinks" onclick="openCity(event, 'clubs')"><strong>Clubs</strong></button>
-  <button class="tablinks" onclick="openCity(event, 'about')"><strong> About</strong></button>
-  <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" 
-data-slug="aleksandard7" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" 
-data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> 
-
-</div>
-
-
-
-<div id="home" class="tabcontent">
-
-    <h1> <strong> FootballFansHQ </strong> </h1> <br><br><br><hr>
-    <p class="p1"> <strong> FootballFansHQ is a website for new football fans that want to learn more about football :) </strong> </p1>  <br> <br> <br> 
-    <p class="p1"> <strong> If you are a new football fan , make sure to go to the players or clubs tab to see who are the best football players and the best football clubs
-                    of all time!</strong>   </p>
-</div>
 
 
 
@@ -40,38 +49,82 @@ data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#fffff
 
 
 
-<div id="players" class="tabcontent">
-  
+
+  <div id="home" class="tabcontent">
+
+    <h1> <strong> FootballFansHQ </strong> </h1> <br><br><br>
+    <hr>
+    <p class="p1"> <strong> FootballFansHQ is a website for new football fans that want to learn more about football 😀
+      </strong> </p1> <br> <br> <br>
+    <p class="p1"> <strong> If you are a new football fan , make sure to go to the players or clubs tab to see who are
+        the best football players and the best football clubs
+        of all time!</strong> </p>
+  </div>
 
 
-    <h3> <strong>The 3 Best Football Players of All-Time   </strong>  </h3>  
 
 
 
-    <h2> 1. Cristiano Ronaldo </h2>
-    <p> <strong>  Ronaldo dos Santos Aveiro (born 5 February 1985) is a Portuguese professional
-        footballer who plays as a forward for and captains both Saudi Professional League club Al Nassr and the Portugal national team.
-        Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards and four European Golden Shoes, the most by a European player. 
-        He has won 32 trophies in his career, including seven league titles, five UEFA Champions Leagues, the UEFA European Championship and the UEFA Nations League.</strong> </p>                                                                                                            
-    <a target="_self" href="ronaldo sliki/ronaldo.png">    <img src="ronaldo sliki/ronaldo.png" alt="ronaldo" width="270" height="250"> </a>     <a target="_self" href="ronaldo sliki/ronaldo2.png">    <img src="ronaldo sliki/ronaldo2.png" alt="ronaldo" width="270" height="250"> </a>    <a target="_self" href="ronaldo sliki/ronaldo3.png">    <img src="ronaldo sliki/ronaldo3.png" alt="ronaldo" width="270" height="250"> </a>   <a target="_self" href="ronaldo sliki/ronaldo4.png">    <img src="ronaldo sliki/ronaldo4.png" alt="ronaldo" width="270" height="250"> </a>  <a target="_self" href="ronaldo sliki/ronaldo5.png">    <img src="ronaldo sliki/ronaldo5.png" alt="ronaldo" width="270" height="250"> </a>    <br><br>
-            
+
+
+  <div id="players" class="tabcontent">
+
+
+
+    <h1> <strong>The 3 Best Football Players of All-Time </strong> </h1>
+
+
+
+    <h2> <strong>1. Cristiano Ronaldo </strong> </h2>
+    <p> <strong> Ronaldo dos Santos Aveiro (born 5 February 1985) is a Portuguese professional
+        footballer who plays as a forward for and captains both Saudi Professional League club Al Nassr and the Portugal
+        national team.
+        Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards and four
+        European Golden Shoes, the most by a European player.
+        He has won 32 trophies in his career, including seven league titles, five UEFA Champions Leagues, the UEFA
+        European Championship and the UEFA Nations League.</strong> </p>
+    <a target="_self" href="ronaldo sliki/ronaldo.png"> <img src="ronaldo sliki/ronaldo.png" alt="ronaldo" width="270"
+        height="250"> </a> <a target="_self" href="ronaldo sliki/ronaldo2.png"> <img src="ronaldo sliki/ronaldo2.png"
+        alt="ronaldo" width="270" height="250"> </a> <a target="_self" href="ronaldo sliki/ronaldo3.png"> <img
+        src="ronaldo sliki/ronaldo3.png" alt="ronaldo" width="270" height="250"> </a> <a target="_self"
+      href="ronaldo sliki/ronaldo4.png"> <img src="ronaldo sliki/ronaldo4.png" alt="ronaldo" width="270" height="250">
+    </a> <a target="_self" href="ronaldo sliki/ronaldo5.png"> <img src="ronaldo sliki/ronaldo5.png" alt="ronaldo"
+        width="270" height="250"> </a> <br><br>
+
 
 
     <h2> 2. Lionel Messi </h2>
-    <p> <strong> Messi is an Argentine professional footballer who plays as a forward for and captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record seven Ballon d'Or award 
-            and a record six European Golden Shoes, and in 2020 he was named to the Ballon d'Or Dream Team. 
-            Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a club-record 34 trophies.</p><strong></strong></p>
-    <a target="_self" href="messi sliki/messi.png">    <img src="messi sliki/messi.png" alt="messi" width="270" height="250"> </a> <a target="_self" href="messi sliki/messi2.png">    <img src="messi sliki/messi2.png" alt="messi" width="270" height="250"> </a>  <a target="_self" href="messi sliki/messi3.png">    <img src="messi sliki/messi3.png" alt="messi" width="270" height="250"> </a>  <a target="_self" href="messi sliki/messi4.png">    <img src="messi sliki/messi4.png" alt="messi" width="270" height="250"> </a>   <a target="_self" href="messi sliki/messi5.png">    <img src="messi sliki/messi5.png" alt="messi" width="270" height="250"> </a>    <br> <br>
+    <p> <strong> Messi is an Argentine professional footballer who plays as a forward for and captains the Argentina
+        national team. Widely regarded as one of the greatest players time, Messi has won a record seven Ballon
+        d'Or award
+        and a record six European Golden Shoes, and in 2020 he was named to the Ballon d'Or Dream Team.
+        Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a
+        club-record 34 trophies.</p><strong></strong></p>
+    <a target="_self"  of allhref="messi sliki/messi.png"> <img src="messi sliki/messi.png" alt="messi" width="270"
+        height="250"> </a> <a target="_self" href="messi sliki/messi2.png"> <img src="messi sliki/messi2.png"
+        alt="messi" width="270" height="250"> </a> <a target="_self" href="messi sliki/messi3.png"> <img
+        src="messi sliki/messi3.png" alt="messi" width="270" height="250"> </a> <a target="_self"
+      href="messi sliki/messi4.png"> <img src="messi sliki/messi4.png" alt="messi" width="270" height="250"> </a> <a
+      target="_self" href="messi sliki/messi5.png"> <img src="messi sliki/messi5.png" alt="messi" width="270"
+        height="250"> </a> <br> <br>
 
 
 
 
     <h2> 3. Neymar JR. </h2>
-    <p> <strong>Neymar Junior is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team.
-         A prolific goalscorer and renowned playmaker, he is widely regarded as one of the best players in the world as well as one of the greatest Brazilian footballers of all time.</strong> </p>
-    <a target="_self" href="Neymar sliki/neymar.png">    <img src="Neymar sliki/neymar.png" alt="neyamr" width="270" height="250"> </a>    <a target="_self" href="Neymar sliki/neymar2.png">    <img src="Neymar sliki/neymar2.png" alt="neyamr" width="270" height="250"> </a>   <a target="_self" href="Neymar sliki/neymar3.png">    <img src="Neymar sliki/neymar3.png" alt="neyamr" width="270" height="250"> </a>    <a target="_self" href="Neymar sliki/neymar4.png">    <img src="Neymar sliki/neymar4.png" alt="neyamr" width="270" height="250"> </a>   <a target="_self" href="Neymar sliki/neymar5.png">    <img src="Neymar sliki/neymar5.png" alt="neyamr" width="270" height="250"> </a>  <br>        
+    <p> <strong>Neymar Junior is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris
+        Saint-Germain and the Brazil national team.
+        A prolific goalscorer and renowned playmaker, he is widely regarded as one of the best players in the world as
+        well as one of the greatest Brazilian footballers of all time.</strong> </p>
+    <a target="_self" href="Neymar sliki/neymar.png"> <img src="Neymar sliki/neymar.png" alt="neyamr" width="270"
+        height="250"> </a> <a target="_self" href="Neymar sliki/neymar2.png"> <img src="Neymar sliki/neymar2.png"
+        alt="neyamr" width="270" height="250"> </a> <a target="_self" href="Neymar sliki/neymar3.png"> <img
+        src="Neymar sliki/neymar3.png" alt="neyamr" width="270" height="250"> </a> <a target="_self"
+      href="Neymar sliki/neymar4.png"> <img src="Neymar sliki/neymar4.png" alt="neyamr" width="270" height="250"> </a>
+    <a target="_self" href="Neymar sliki/neymar5.png"> <img src="Neymar sliki/neymar5.png" alt="neyamr" width="270"
+        height="250"> </a> <br>
 
-</div>
+  </div>
 
 
 
@@ -83,41 +136,49 @@ data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#fffff
 
 
 
-<div id="clubs" class="tabcontent">
-  
-    <h3> <strong>The 3 Best Football Clubs of All-Time   </strong>  </h3>  
+  <div id="clubs" class="tabcontent">
+
+    <h1> <strong>The 3 Best Football Clubs of All-Time </strong> </h1>
 
 
     <h2> 1. Real Madrid </h2>
-    <p> <strong>  Real Madrid, is a Spanish professional football club based in Madrid. The club competes in La Liga, the top tier of Spanish football.
-        Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception. 
+    <p> <strong> Real Madrid, is a Spanish professional football club based in Madrid. The club competes in La Liga, the
+        top tier of Spanish football.
+        Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception.
         The official Madrid anthem is the "Hala Madrid y nada más", written by RedOne and Manuel Jabois.
-        The club is one of the most widely supported in the world, and is the most followed football club on 
-        social media according to the CIES Football Observatory as of 2023 and was estimated to be worth $5.1 billion in 2022, 
+        The club is one of the most widely supported in the world, and is the most followed football club on
+        social media according to the CIES Football Observatory as of 2023 and was estimated to be worth $5.1 billion in
+        2022,
         making it the world's most valuable football club. </strong></p>
-
-
-</div>
-
-
-
-
-
-
-
-<div id="about" class="tabcontent">
-  
-
-  
-
-
-
-</div>
+    <a target="_self" href="real madrid/realmadridlogo.png"> <img src="real madrid/realmadridlogo.png" alt="neyamr"
+        width="270" height="250"> </a> <a target="_self" href="real madrid/realmadrid2.png"> <img
+        src="real madrid/realmadrid2.png" alt="neyamr" width="270" height="250"> </a> <a target="_self"
+      href="real madrid/realmadrid3.png"> <img src="real madrid/realmadrid3.png" alt="neyamr" width="270" height="250">
+    </a> <a target="_self" href="real madrid/realmadrid4.png"> <img src="real madrid/realmadrid4.png" alt="neyamr"
+        width="270" height="250"> </a> <a target="_self" href="real madrid/realmadrid5.png"> <img
+        src="real madrid/realmadrid5.png" alt="neyamr" width="270" height="250"> </a>
 
 
 
 
 
+    <h2> 2. FC Barcelona </h2>
+    <p> <strong> Barcelona and colloquially known as Barça is a professional football club based in Barcelona,
+        Catalonia, Spain, that competes in La Liga,
+        the top flight of Spanish football.Unlike many other football clubs, the supporters own and operate Barcelona.
+        It is the third-most valuable sports team in the world, worth $5.51 billion, and the world's fourth richest
+        football club in terms of revenue,
+        with an annual turnover of €582.1 million.The official Barcelona anthem is the "Cant del Barça", written by
+        Jaume Picas and Josep Maria Espinàs.
+        Barcelona traditionally play in dark shades of blue and garnet stripes, hence nicknamed Blaugrana. </strong></p>
+    <a target="_self" href="barcelona/Barcelona.png"> <img src="barcelona/Barcelona.png" alt="neyamr" width="270"
+        height="250"> </a> <a target="_self" href="barcelona/Barcelona2.png"> <img src="barcelona/Barcelona2.png"
+        alt="neyamr" width="270" height="250"> </a> <a target="_self" href="barcelona/barcelona3.png"> <img
+        src="barcelona/barcelona3.png" alt="neyamr" width="270" height="250"> </a> <a target="_self"
+      href="barcelona/barcelona4.png"> <img src="barcelona/barcelona4.png" alt="neyamr" width="270" height="250"> </a>
+    <a target="_self" href="barcelona/barceona5.png"> <img src="barcelona/barceona5.png" alt="neyamr" width="270"
+        height="250"> </a>
+  </div>
 
 
 
@@ -125,6 +186,14 @@ data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#fffff
 
 
 
+  <div id="about" class="tabcontent">
+
+
+
+
+
+
+  </div>
 
 
 
@@ -132,32 +201,38 @@ data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#fffff
 
 
 
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
-    
-    
-    
-    
-    
-    
-    
+  <footer>
+    <p class="p3"><strong>Created By: Aleksandar </strong> <br>
+      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+        data-name="bmc-button" data-slug="aleksandard7" data-color="#FFDD00" data-emoji="" data-font="Cookie"
+        data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000"
+        data-coffee-color="#ffffff"></script>
+    </p>
+  </footer>
 
-   
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("default").click()
+  </script>
+
+
+
 
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+  integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
 </html>
