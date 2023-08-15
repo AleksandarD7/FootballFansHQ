@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="script.js" defer></script>
+
 </head>
 
 <body>
@@ -36,7 +38,13 @@
             <a class="tablinks nav-link" href="#" onclick="openCity(event, 'about')"><strong>ABOUT</strong></a>
           </li>
           <li class="nav-item">
-            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'Games')"><strong> GAMES</strong> </a>
+            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'games')"><strong> GAMES</strong> </a>
+          </li>
+          <li class="nav-item">
+            <script data-name="BMC-Widget" data-cfasync="false"
+              src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="aleksandard7"
+              data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF"
+              data-position="Right" data-x_margin="18" data-y_margin="18"></script>
           </li>
         </ul>
       </div>
@@ -279,12 +287,12 @@
               each. </strong></p>
           <div class="row align-items-center">
             <div class="col p-2 d-flex justify-content-center">
-              <a target="_self" href="machester united/united2.png"> <img src="machester united/united2.png" alt="neyamr"
-                  width="270" height="250"> </a>
+              <a target="_self" href="machester united/united2.png"> <img src="machester united/united2.png"
+                  alt="neyamr" width="270" height="250"> </a>
             </div>
             <div class="col p-2 d-flex justify-content-center">
-              <a target="_self" href="machester united/united.png"> <img src="machester united/united.png"
-                  alt="neyamr" width="270" height="250"> </a>
+              <a target="_self" href="machester united/united.png"> <img src="machester united/united.png" alt="neyamr"
+                  width="270" height="250"> </a>
             </div>
             <div class="col p-2 d-flex justify-content-center">
               <a target="_self" href="machester united/united3.png"> <img src="machester united/united3.png"
@@ -295,14 +303,7 @@
                   alt="neyamr" width="270" height="250"> </a>
             </div>
           </div> <br> <br> <br>
-
-
-
-
-
         </div>
-
-
       </div>
 
       <div class="col">
@@ -317,16 +318,10 @@
       <div class="col">
         <div id="games" class="tabcontent">
 
-
-
-
-
-
-
-
-
-
-
+          <h2 id="gametittle">Snake Game</h2>
+          <div id="game">
+            <canvas id="snake"></canvas>
+          </div>
         </div>
 
 
@@ -339,34 +334,18 @@
 
 
 
-    <footer>
+    <!--<footer>
       <p class="p3"><strong>Created By: Aleksandar </strong> <br>
         <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
           data-name="bmc-button" data-slug="aleksandard7" data-color="#FFDD00" data-emoji="" data-font="Cookie"
           data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000"
           data-coffee-color="#ffffff"></script>
       </p>
-    </footer>
+    </footer>-->
 
 
 
 
-    <script>
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      document.getElementById("default").click()
-    </script>
 
 
 
