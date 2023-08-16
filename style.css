@@ -75,13 +75,13 @@ h1 {
 
 
 #game {
-  width:500px;
-  height:500px;
+  width:700px;
+  height:700px;
   margin:0 auto;
   background-color:#eee;
 }
 #gametittle {
   text-align:center;
   font-family:Arial;
-  font-size:36px;
+  font-size:45px;
 } 
