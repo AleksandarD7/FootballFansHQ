@@ -16,7 +16,11 @@ If you like my work, feel free to:
 
 - ⭐ this repository. It helps.
 - [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about FootballFansHQ.
-
 [tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
-
 - Share this with your friend!
+
+
+### Create a bug report
+
+If you see an error message or run into an issue, please [create bug report](https://github.com/AleksandarD7/FootballFansHQ/issues/new). This effort is valued and it will help all FootballFansHQ users.
+
