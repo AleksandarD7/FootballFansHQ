@@ -1,5 +1,5 @@
 <p align="center">
-<img width="80" height="60"  src="sliki/FootballFansHQ-removebg-preview.png"/>
+<img width="200" height="200"  src="sliki/logo.png"/>
 </p>
 
 <p align="center">
