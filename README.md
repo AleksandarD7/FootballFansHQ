@@ -1,5 +1,5 @@
 <p align="center">
-<img width="60" height="68" alt="EverShop Logo" src="FootballFansHQ.png"/>
+<img width="60" height="68"  src="sliki/FootballFansHQ.png"/>
 </p>
 
 <p align="center">
