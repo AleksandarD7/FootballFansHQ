@@ -15,7 +15,7 @@ FootballFansHQ is a website for new football fans that want to learn more about 
 If you like my work, feel free to:
 
 - ⭐ this repository. It helps.
-- Share this with your friend!
+- Share this with your friends!
 - [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about FootballFansHQ.
 
 [tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
@@ -24,4 +24,9 @@ If you like my work, feel free to:
 ## Create a bug report
 
 If you see an error message or run into an issue, please [create bug report](https://github.com/AleksandarD7/FootballFansHQ/issues/new). This effort is valued and it will help all FootballFansHQ users.
+
+### Submit a feature request
+
+If you have an idea, or you're missing a capability that would make development easier and more robust, please [Submit feature request](https://github.com/AleksandarD7/FootballFansHQ/issues/new).
+
 
