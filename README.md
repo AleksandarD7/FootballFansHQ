@@ -9,3 +9,11 @@
 ## Introduction
 FootballFansHQ is a website for new football fans that want to learn more about football 😀. You can also relax by playing our games.
 
+
+## Support
+
+If you like my work, feel free to:
+
+- ⭐ this repository. It helps.
+- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about EverShop. Please accept my gratitude.
+
