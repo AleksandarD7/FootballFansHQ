@@ -99,3 +99,12 @@ const initGame = () => {
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 100);
 document.addEventListener("keyup", changeDirection);
+
+
+
+
+// Script za TicTacToe
+let playerSymbol = "X";
+let gameEnded = false
+
+

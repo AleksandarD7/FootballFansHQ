@@ -19,6 +19,15 @@ h2 {
 }
 
 
+
+.p9 {
+  text-align:center;
+  color:rgb(90, 87, 87) ;
+  font-size: 70px;
+}
+
+
+
 p {
   color: navy;
   font-size: 22px;
@@ -165,4 +174,20 @@ h1 {
     padding: 15px 0;
     font-size: 1rem;
   }
+}
+
+
+
+/*CSS za TicTacToe*/
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
 }
