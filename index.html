@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 </head>
@@ -42,7 +41,8 @@
             <a class="tablinks nav-link" href="#" onclick="openCity(event, 'games')"><strong>SNAKE GAME</strong> </a>
           </li>
           <li class="nav-item">
-            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'tictactoe')"><strong>TICTACTOE GAME</strong> </a>
+            <a class="tablinks nav-link" href="#" onclick="openCity(event, 'tictactoe')"><strong>TICTACTOE GAME</strong>
+            </a>
           </li>
           <li class="nav-item">
             <script data-name="BMC-Widget" data-cfasync="false"
@@ -63,8 +63,8 @@
           <div class="container mt-5">
             <div class="row">
               <p align="center">
-                <img width="300" height="300"  src="sliki/logo.png"/>
-                </p>
+                <img width="300" height="300" src="sliki/logo.png" />
+              </p>
               <div class="col-sm-4">
                 <h3> <strong>Introduction </strong> </h3>
                 <p class="p1"> FootballFansHQ is a website for new football fans that want to learn more about football
@@ -316,7 +316,7 @@
       <div class="col">
         <div id="about" class="tabcontent">
 
-      <p class="p9"><strong> Created By Aleksandar</strong></p>
+          <p class="p9"><strong> Created By Aleksandar</strong></p>
 
         </div>
       </div>
@@ -326,63 +326,61 @@
 
       <div class="col">
         <div id="games" class="tabcontent">
-    
+
           <h1 id="gametittle"><strong>Snake Game</strong></h2>
             <div class="wrapper">
               <div class="sup-wrapper">
-              <div class="game-details">
-                <span class="score">Score: 0</span>
-                <span class="high-score">High Score: 0</span>
-              </div>
-              <div class="play-board"></div>
-              <div class="controls">
-                <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
-                <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
-                <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
-                <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
-              </div>
+                <div class="game-details">
+                  <span class="score">Score: 0</span>
+                  <span class="high-score">High Score: 0</span>
+                </div>
+                <div class="play-board"></div>
+                <div class="controls">
+                  <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                  <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                  <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                  <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+                </div>
               </div>
             </div>
-        
+
         </div>
       </div>
     </div>
 
-    
     <div class="col">
       <div id="tictactoe" class="tabcontent">
-      
-      
+  
+  
         <div class="container">
-  <table>
-    <tr>
-      <td id="1"></td>
-      <td id="2"></td>
-      <td id="3"></td>
-    </tr>
-    <tr>
-      <td id="4"></td>
-      <td id="5"></td>
-      <td id="6"></td>
-    </tr>
-    <tr>
-      <td id="7"></td>
-      <td id="8"></td>
-      <td id="9"></td>
-    </tr>
-  </table>
-
+          <table id="xotable">
+            <tr>
+              <td id="1"></td>
+              <td id="2"></td>
+              <td id="3"></td>
+            </tr>
+            <tr>
+              <td id="4"></td>
+              <td id="5"></td>
+              <td id="6"></td>
+            </tr>
+            <tr>
+              <td id="7"></td>
+              <td id="8"></td>
+              <td id="9"></td>
+            </tr>
+          </table>
+          <button id="reset">Reset</button>
+        </div>
   
-</div>
-
-      
-      
-      
-      
+  
       </div>
-    </div>
-        
   
+    </div>
+  </div>
+
+
+
 
 
 
@@ -394,5 +392,6 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
   integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
 
 </html>

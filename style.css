@@ -179,15 +179,48 @@ h1 {
 
 
 /*CSS za TicTacToe*/
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-}
+#xotable {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+ #xotable td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+  
+  .x {
+    color: blue;
+    font-size: 80px;
+  }
+  
+  .o {
+    color: red;
+    font-size: 80px;
+  }
+  
+  .win {
+    background-color: green;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  #reset {
+    margin: 48px 40%;
+    padding: 20px;
+  }
 
-td {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  vertical-align: middle;
-  border: 1px solid black;
-}
+  #tictactoe {
+    background: lightblue;
+  }
+
+  .container-fluid {
+    background: lightblue;
+  }
