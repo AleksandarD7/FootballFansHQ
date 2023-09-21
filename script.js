@@ -116,19 +116,15 @@ let winPos = [
 ];
 
 for (let i = 1; i <= 9; i++) {
-  // Whenever a player clicks on a cell
   document.getElementById(i.toString()).addEventListener(
     "click", 
     function() {
       if (this.innerHTML === "" && !gameEnded) {
-        // Display either "X" or "O" in the cell, and style it
         this.innerHTML = playerSymbol;
         this.classList.add(playerSymbol.toLowerCase());
 
-        // Check if a player has won
         checkWin();
         
-        // Swap the symbol to the other one for the next turn
         if (playerSymbol === "X")
           playerSymbol = "O"
         else

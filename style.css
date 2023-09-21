@@ -185,11 +185,11 @@ h1 {
   }
   
  #xotable td {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid black;
+    border: 2px solid black;
   }
   
   .x {
@@ -203,7 +203,7 @@ h1 {
   }
   
   .win {
-    background-color: green;
+    background-color: rgb(30, 196, 30);
   }
   
   .container {
