@@ -125,7 +125,7 @@ for (let i = 1; i <= 9; i++) {
 
         checkWin();
         
-        if (playerSymbol === "O")
+        if (playerSymbol === "O")   
           playerSymbol = "X"
         else
           playerSymbol = "O"
@@ -166,3 +166,8 @@ document.getElementById("reset").addEventListener(
     }
   }
 );
+
+
+
+
+//Script za HangMan Game
