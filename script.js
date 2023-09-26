@@ -125,10 +125,10 @@ for (let i = 1; i <= 9; i++) {
 
         checkWin();
         
-        if (playerSymbol === "X")
-          playerSymbol = "O"
-        else
+        if (playerSymbol === "O")
           playerSymbol = "X"
+        else
+          playerSymbol = "O"
       }
     }
   );
